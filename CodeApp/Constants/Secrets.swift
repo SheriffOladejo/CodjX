@@ -1,0 +1,2 @@
+let JUDGE0_ENDPOINT = "http://45.134.173.36:2358"
+let JUDGE0_KEY = ""

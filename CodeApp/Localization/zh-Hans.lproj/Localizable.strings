@@ -1,0 +1,447 @@
+/* 
+  Localizable.strings
+  CodjX Suite Writer
+
+  Created by Ken Chung on 6/12/2020.
+  
+*/
+
+"Welcome Message" =
+"# CodjX Suite Writer
+##### **v1.4.3 (2023 年 1 月)**
+#### 开始
+[新文件](https://thebaselab.com/code/newfile)
+[打开文件](https://thebaselab.com/code/openfile)
+[打开文件夹](https://thebaselab.com/code/openfolder)
+
+#### 支持
+[说明文件](https://code.thebaselab.com)
+[GitHub](https://github.com/thebaselab/codeapp)
+[邮箱](mailto:support@thebaselab.com)
+[推特](https://twitter.com/thebaselab)
+";
+
+"Changelog.message" =
+"
+### v1.4.3 (2023 年 1 月)
+- Bug 修复
+- 日语本地化
+- 社区模板
+
+### v1.4.1 (2022 年 12 月)
+- Bug 修复
+
+### v1.4.0（2022 年 12 月）
+- PDF 预览
+- 拆分视图支持
+- 整体性能和稳定性改进
+
+### v1.3.6 (2022 年 10 月)
+- 将 Node.js 升级到 v16.17.0
+- svelte 的语法突出显示
+- 新的编辑器主题
+- 正确处理终端终止信号
+- 支持使用 `code` 命令打开目录
+- 修复了一个阻止 emmet 工作的 bug
+### v1.3.5 (2022 年 9 月)
+- 用户界面改进
+- 支持在资源管理器中移动文件
+- 支持从远程服务器下载文件
+- 能够为 git push 选择不同的遥控器
+### v1.3.4 (2022 年 6 月)
+- 对 SFTP 的终端支持
+- 支持 Fira 代码和自定义字体
+- 韩语本地化
+- 新的文档网站
+- 一般改进
+### v1.3.3 (2022 年 5 月)
+- Bug 修复
+### v1.3.2 (2022 年 5 月)
+- 修复了阻止现有用户访问主题的 Bug
+### v1.3.1 (2022 年 5 月)
+- Bug 修复
+- Code+ - 一项订阅服务，可让我们将 Code 带给所有人并解锁所有主题。现有用户继续拥有对 Code 的完全访问权限。
+### v1.3.0 (2022 年 5 月)
+- 远程支持 (SFTP 和 FTP)
+- Dynamic Type 支持
+- 实验性功能: 拼写检查文本文件
+### v1.2.13 (2022 年 3 月)
+- iOS 15.4 的兼容性
+- Node.js 的国际化支持
+### v1.2.12 (2022 年 3 月)
+- 错误修复
+### v1.2.10（2022 年 3 月）
+- 自定义键盘快捷键
+- 通过在行号上滑动来选择文本
+- 用户界面改进
+- 修复了编辑器有时无法加载的问题
+- Node.js 16.13.2
+### v1.2.9（2022 年 1 月）
+- 修复了以下问题：
+   - 某些键不适用于欧洲键盘布局 (#237)
+   - `curl` 不再有效 (#330)
+   - 默认参数使一些 npm 命令崩溃 (#326)
+### v1.2.8 (December 2021)
+- 修复了以下问题：
+  - ssh-keygen 导致终端停止 (#314)
+  - 编辑器有时会显示一个空白屏幕
+- 为 Terraform 添加语法高亮 (#319)
+### v1.2.7（December 2021)
+- 一些改进
+### v1.2.6（September 2021)
+- 与最新的 iOS 版本兼容
+- 其他改进
+### v1.2.5 (July 2021)
+- 终端
+ - 修正了关于Clang / Clang ++的一些问题
+### v1.2.4（June 2021）
+- 编辑器
+ - 解决了鼠标/触控板选择不起作用的问题
+ - 更新到TypeScript 4.2.4
+- 界面
+  - 新的 iPhone 侧边栏设计
+  - 能够对编辑器标签进行重新排序
+  - 改进了 Xcode 主题的可读性
+  - 能够在 Context Menu 中复制文件
+- 性能
+  - 从文件 App 打开 SMB 时增强了性能
+- Git
+  - 改善与 Azure DevOps 存储库的兼容性
+  - Gutter indicators
+  - Git CLI 命令 (暂不支持远程操作)
+- 终端
+  - 自动完成文件路径
+  - 在编辑器中使用 `code <file>` 打开代码
+- C / C++
+  - Clang（使用 `clang main.c` 和 `./a.out` 运行 C 程序）
+  - Clang++（使用 `clang++ main.cpp` 和 `./a.out` 运行 C++ 程序）
+- PHP
+  - php（使用 `php` 运行 PHP 程序和使用 `php -S localhost:<port>` 运行开发服务器）
+
+---
+
+### v1.2.3 (April 2021)
+- 编辑器
+  - 6 个颜色主题
+  - 只读模式
+  - Node.js 的内置类型
+  - 支持 @types 定义
+- 资源管理器
+  - 多文件搜索
+- Python
+  - 内置 Matplotlib，Pandas
+- 其他
+  - UI 状态恢复
+  - 德语的本地化
+  - 错误修复和其他改进
+
+---
+
+### v1.2.1（March 2021）
+- Node.js
+  - 离线运行 Javascript
+  - 安装模块命令 (npm install) (tsc, prettier etc.)
+  - 新的终端命令：npm, npx, node
+- Python 3.9.2
+  - 离线运行 Python
+  - 安装模块命令 (pip install)
+  - 新的终端命令：pip, python, python3
+- 编辑
+  -`问题` 标签
+  - 新的 Markdown 风格
+  - Vue的语法突出显示
+  - 平滑滚动选项 (适用于 iPad Pro)
+- 终端
+  - 现在支持浅色模式
+- 文件管理器
+  - 减少行高
+- Bug 修复
+
+---
+
+### v1.1.9 (February 2021)
+- Bug 修复
+
+---
+
+### v1.1.8 (February 2021)
+- 文本编辑器
+  - 迁移到 TextMate 语法（更高级语法突出显示）
+  - 支持更多语言（Groovy，HLSL，Log，Makefile，Shaderlab，Fortran和Matlab）
+  - 修复了编辑器有时没有反应的错误
+  - 新的键盘工具栏
+- 版本控制
+  - 改进的性能和可靠性
+  - 分期变更
+  - 切换分支
+  - 分离头模式
+  - 恢复更改
+- 语言
+  - 支持 Groovy
+- 内置终端
+  - Bug 修复
+- 资源管理器
+  - 现在在关闭侧边栏时保留目录的折叠状态
+  - 能够通过点击文件夹名称来扩展文件夹
+- 其他
+  - 侧边栏的宽度减小
+  - 现在暂时删除了主题，以支持新的语法突出显示系统
+  - 暂时禁用了 JSON Intellisense
+
+---
+
+### v1.1.7 (January 2021)
+- 编辑器
+  - 当运行代码或关闭键盘时，编辑器会保存文件
+  - 解决了有时无法显示虚拟键盘的问题
+- 版本控制
+  - 克隆私人存储库
+  - Git push, pull 和 sync
+  - 修复了克隆存储库命名不正确的问题
+- 内置终端
+  - 70+ Linux 指令 (ls, cd, nslookup等)
+  - 类似于 Bash 的功能，例如 Piping，历史记录和完成
+  - 按 Tab 键显示所有可用命令
+- 资源管理器
+  - 文件和目录现在按字母顺序排序
+  - 现在默认隐藏以点开头的文件或目录
+  - 能够以两指平移手势选择项目
+- 其他改进
+  - 您可以直接从文件应用程序或其他应用程序中使用 CodjX Suite Writer 打开文件
+  - 可以在主屏幕上按住应用程序图标以打开最近文档
+";
+
+"Send us an email" = "给我们发邮件";
+"Open an issue on GitHub" = "在 GitHub 上报告问题";
+"Clear console" = "清除终端";
+"Kill Process" = "中止进程";
+"Sync" = "同步";
+"Synchronize Changes" = "同步远程变更 (Git pull & push)";
+"You don't have any open editor." = "当前没有打开的编辑器。";
+"This will pull remote changes down to your local repository and then push local commits to the upstream branch. Conflicts will be merged and overriden by the local copy." = "这会将远程更改拉取到本地存储库，然后将本地提交推送到远程分支。冲突将被本地副本合并和覆盖。";
+"User Name" = "用户名";
+"Show hidden files" = "显示隐藏文件";
+"Erase" = "清除";
+"This will erase all user settings, including author identity and credentials." = "这将清除所有用户设置，包括作者身份和凭据。";
+"Erase all settings" = "清除所有设置";
+"Release Notes" = "发布说明";
+
+"New File" = "新建文件";
+"Open File" = "打开文件";
+"Open Editors" = "打开的编辑器";
+"EXPLORER" = "资源管理器";
+"Explorer" = "资源管理器";
+"SEARCH" = "搜索";
+"Search" = "搜索";
+"Results" = "结果";
+"Search Text" = "搜索文字";
+"Search File" = "搜索文件";
+"Quick add" = "新建文件";
+"Custom" = "自定义";
+"Where" = "路径";
+"Current Folder" = "当前文件夹";
+"Add File" = "新建文件";
+"INPUT" = "输入";
+"PROBLEMS" = "问题";
+"OUTPUT" = "输出";
+"Options" = "选项";
+"Close All" = "全部关闭";
+"Preview in Safari" = "在 Safari 中预览";
+"Mini Map" = "小地图";
+"Line Numbers" = "行号";
+"OTHERS" = "其他";
+"Tab Size" = "Tab 宽度";
+
+"Settings" = "设置";
+"General" = "一般";
+"Editor" = "编辑器";
+"Compiler" = "编译器";
+"Accent" = "主题";
+"Font Size" = "字体大小";
+"Editor Font Size" = "编辑器字体大小";
+"Terminal Font Size" = "控制台字体大小";
+"Bracket Completion" = "自动输入括号";
+"Theme" = "主题";
+"Rate CodjX Suite Writer" = "为 CodjX Suite Writer 打分";
+"About" = "关于";
+"Version" = "版本";
+
+"Done" = "完成";
+
+"Recent" = "最近";
+"Show in Files App" = "在「文件」App 中打开";
+"Copy Relative Path" = "复制相对路径";
+"Delete" = "删除";
+"Color Scheme" = "颜色主题";
+"Dark Theme" = "黑暗主题";
+"Light Theme" = "浅色主题";
+"Dark Themes" = "黑暗主题";
+"Light Themes" = "浅色主题";
+"Text Wrap" = "换行";
+"Render Whitespace" = "渲染空白字符";
+
+"Share" = "分享";
+"Rename" = "重命名";
+"Assign as workplace folder" = "设置为工作文件夹";
+"Select for compare" = "选择进行比较";
+"Compare with selected" = "与选定内容做比较";
+"Version Control" = "版本控制";
+"Author Identity" = "作者身份";
+"Authentication" = "凭据";
+"Name" = "名字";
+"Email address" = "电子邮件";
+"Save" = "保存";
+"Close Editor" = "关闭编辑器";
+"Zoom in" = "放大";
+"Zoom out" = "缩小";
+"Show Explorer" = "显示资源管理器";
+"Show Search" = "显示搜寻";
+"Show Source Control" = "显示源代码控制";
+"User Settings" = "用户设置";
+"Show Panel" = "显示终端";
+"Hide Panel" = "隐藏终端";
+"Run Code" = "运行代码";
+"New Folder" = "新建文件夹";
+
+"The folder currently opened doesn't have a git repository." = "当前打开的文件夹没有 Git 存储库。";
+"Example: https://github.com/thebaselab/codeapp.git" = "例子: https://github.com/thebaselab/codeapp.git";
+"Initialize Repository" = "初始化存储库";
+"Clone Repository" = "克隆存储库";
+"TERMINAL" = "终端";
+"Keyboard Toolbar (Effective in next launch)" = "键盘工具栏 (下次启动后生效)";
+"Always Open In New Tab" = "总是在新标签页中打开";
+"Changes" = "变更";
+"Message (⌘Enter to commit)" = "提交备注 (⌘ + Enter 以提交)";
+"Staged Changes" = "缓存变更";
+"No changes are made in the working directory." = "没有任何未缓存的变更。";
+"Git checkout: Uncommitted Changes" = "Git checkout: 未提交的更改";
+"Uncommited changes will be lost. Do you wish to proceed?" = "未提交的更改将丢失。你要继续吗？";
+"No changes are made in this file" = "没有任何变更。";
+
+"Smooth Scrolling" = "平滑滚动";
+"Stage All Changes" = "缓存全部变更";
+"Push" = "推送 (Push)";
+"Fetch" = "获取 (Fetch)";
+
+"Welcome" = "欢迎";
+"Themes" = "主题";
+"Read-only Mode" = "只读模式";
+"Show Welcome Page" = "显示欢迎页面";
+"UI State Restoration" = "UI 状态恢复";
+"Open in Tab" = "在标签页中打开";
+"Show Command in Terminal" = "在终端中显示命令";
+"Duplicate" = "复制";
+"Console Font Size" = "终端字体大小";
+
+"Custom Keyboard Shortcuts" = "自定义键盘快捷键";
+
+"Remotes" = "远程";
+"You don't have any saved remote." = "您没有任何已保存的远程服务器。";
+"New remote" = "新建远程服务器";
+"Protocol" = "协议";
+"Address" = "地址";
+"Port" = "端口";
+"Username" = "用户名";
+"Password" = "密码";
+"Use key authentication" = "使用密钥认证";
+"Remember address" = "记住地址";
+"Connect" = "连接";
+"Disconnect" = "断开";
+"Current Remote" = "当前远程服务器";
+"Remember credentials" = "记住凭据";
+"Key passphrase" = "SSH 密钥密码";
+"Show public key" = "显示公钥";
+
+"Expermimental Features" = "实验性功能";
+"Enable spell check in text files" = "在文本文件中启用拼写检查";
+"Spell checking on content changed" = "在内容改变时检查拼写";
+
+"common.configure" = "配置";
+"common.open_folder" = "打开文件夹";
+"common.compare" = "比较";
+"common.overwrite" = "覆盖";
+"common.save" = "保存";
+"common.dont_save" = "不保存";
+"common.cancel" = "取消";
+"common.revert" = "还原";
+
+"notification.source" = "来源: %@";
+
+"subscription.codeplus" = "Code+";
+"subscription.title %@" = "12个月 %@";
+"subscription.message" = "让 Code 面向所有人可用，并解锁所有主题。Code 仍然开源，且所有现存功能都将保持免费可用。";
+"subscription.payment.description %@ %@" = "从%@开始，Code+ 将自动续订，每年%@，直到您取消。";
+"subscription.payment.disallowed" = "您的设备的配置不允许付款。";
+"subscription.join" = "订阅 Code+";
+"terms_of_use" = "使用条款";
+"code.and.privacy" = "Code 隐私政策";
+"credentials.note" = "注意：凭据存储在您设备的 Secure Enclave 内。我们无权访问它。";
+"settings.editor.font" = "编辑器字体";
+"settings.editor.font.reset" = "重置";
+
+"errors.script_already_running" = "脚本已在运行。 在运行另一个之前完成它。";
+"errors.fs.not_implemented" = "文件系统不支持此操作。";
+"errors.fs.scheme_not_registered" = "文件系统方案未注册。";
+"errors.fs.invalid_host" = "无效的主机。";
+"errors.fs.unspported_encoding" = "不支持的编码。";
+"errors.fs.unknown" = "未知错误。";
+"errors.fs.connection_failure" = "连接失败。";
+"errors.fs.authentication_failure" = "身份验证失败。";
+"errors.fs.attempting_to_copy_parent_to_child" = "尝试将父文件夹复制到子文件夹。";
+"errors.fs.attempting_to_copy_oneself" = "尝试复制自己。";
+"errors.fs.already_connecting_to_a_host" = "已经正在连接到主机。";
+"errors.source_control.authentication_failed" = "身份验证失败：您可能需要配置您的 git 凭据。";
+"errors.source_control.clone_authentication_failed" = "身份验证失败：存储库 url 错误或您需要配置 git 凭据。";
+"errors.source_control.no_staged_changes" = "没有任何缓存变更。";
+"errors.source_control.empty_commit_message" = "备注不能为空";
+"errors.source_control.invalid_url" = "无效的网址";
+"errors.unknown_file_format" = "未知文件格式";
+"errors.editor_does_not_exist" = "编辑器不存在。";
+"errors.editor_is_not_ready" = "编辑器尚未准备好。";
+"errors.failed_to_save_file.encoding.failed" = "无法保存文件。 编码失败。";
+"errors.file_modified_by_another_process" = "文件已被另一个进程修改。";
+
+"file.copy" = "复制到..";
+"file.download" = "下载到..";
+"file.confirm_save %@" = "是否要保存 %@？";
+
+"actions.new_window" = "新窗口";
+
+"remote.connecting" = "正在连接到主机";
+"remote.connected" = "连接成功";
+"remote.ssh_key_not_found" = "在 Documents/.ssh/id_rsa 中找不到 SSH 密钥。 通过在终端中运行 ssh-keygen 生成一个。";
+"remote.reload_key" = "重新加载密钥";
+
+"source_control.title" = "源码管理";
+"source_control.pat" = "个人访问令牌";
+"source_control.repository_initialized" = "存储库已初始化";
+"source_control.commit_succeeded" = "提交成功";
+"source_control.uploading_objects" = "上传中";
+"source_control.pushing_to_remote" = "推送中";
+"source_control.push_succeeded" = "推送成功";
+"source_control.fetching_from_origin" = "下载中";
+"source_control.fetch_succeeded" = "下载成功";
+"source_control.clone_succeeded" = "克隆成功";
+"source_control.cloning_into" = "克隆中: %@";
+"source_control.error" = "克隆错误: %@";
+"source_control.revert_succeeded" = "还原成功";
+"source_control.remote_credentials" = "Git 凭证";
+"source_control.credentials.note" = "在许多情况下，您需要使用个人访问令牌而不是密码来进行身份验证。 要了解更多：";
+"source_control.setup_your_credentials" = "设置您的 git 凭据（仅提供英文版）";
+"source_control.confirm_revert %@" = "您确定要还原 %@ 吗？";
+"source_control.retrieving_changes" = "检索变更中";
+"source_control.community_templates" = "社区模板";
+"source_control.community_templates.description" = "社区模板是 GitHub 上带有#codeapp-template 标签的存储库。 您可以在设置菜单中禁用此功能。";
+"source_control.clone" = "克隆";
+
+"panel.problems.no_problems_detected" = "工作区中未检测到问题。";
+"panel.execution.press_play_to_execute_code" = "按下播放按钮执行代码。程序输入需要在执行前填写。";
+"panel.execution.program_input" = "程序输入..";
+"panel.execution.input" = "输入";
+"panel.execution.output" = "输出";
+"panel.execution.split_view" = "分屏";
+"panel.execution.title" = "执行";
+
+"local.execution.title" = "本地执行";
+
+"remote.setup_remote_server_on_mac" = "在 Mac 上设置远程服务器";

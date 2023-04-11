@@ -1,0 +1,348 @@
+/* 
+  Localizable.strings
+  CodjX Suite Writer
+
+  Created by Ken Chung on 6/12/2020.
+  
+*/
+
+"Welcome Message" =
+"# CodjX Suite Writer
+##### **v1.4.3 (January 2023)**
+#### Start
+[New file](https://thebaselab.com/code/newfile)
+[Open file](https://thebaselab.com/code/openfile)
+[Open folder](https://thebaselab.com/code/openfolder)
+
+#### Help
+[Documentation](https://code.thebaselab.com)
+[GitHub](https://github.com/thebaselab/codeapp)
+[Email](mailto:support@thebaselab.com)
+[Twitter](https://twitter.com/thebaselab)
+";
+
+"Changelog.message" =
+"
+### v1.4.3 (January 2023)
+- Bug fixes
+- Japanese localization
+- Community Templates
+
+### v1.4.1 (December 2022)
+- Bug fixes
+
+### v1.4.0 (December 2022)
+- Split View support
+- PDF preview
+- Overall performance and stability improvements
+
+### v1.3.6 (October 2022)
+- Upgrade Node.js to v16.17.0
+- Syntax highlighting for svelte
+- New editor themes
+- Properly handle terminal terminate signals
+- Support opening directories with `code` command
+- Fix a bug that prevents emmet from working
+
+### v1.3.5 (September 2022)
+- UI improvements
+- Support for moving files in explorer
+- Support for downloading files from remote servers
+- Ability to select different remotes for git push
+### v1.3.4 (June 2022)
+- Terminal support for SFTP
+- Support for Fira Code and custom fonts
+- Korean localization
+- New documentation website
+- General improvements
+### v1.3.3 (May 2022)
+- Bug fixes
+### v1.3.2 (May 2022)
+- Fixes a bug that prevents existing users to access themes
+### v1.3.1 (May 2022)
+- Bug fixes
+- You can now use custom Java entry class name
+- Introducing Code+ - A subscription service that allows us to bring Code to everyone and unlocks all themes. Existing users continue to have full access to the app.
+### v1.3.0 (May 2022)
+- Remote Support (SFTP and FTP)
+- Dynamic Type support
+- Experimental feature: Spell check for text files
+### v1.2.13 (March 2022)
+- Compatibility with iOS 15.4
+- Internationalization support for Node.js
+### v1.2.12 (March 2022)
+- Critical bug fix
+### v1.2.10 (March 2022)
+- Custom keyboard shortcuts
+- Text selection by sliding over line numbers
+- UI improvements
+- Fixes problems where editor sometimes would not load
+- Node.js 16.13.2
+### v1.2.9 (January 2022)
+- Fixes problems where:
+  - certain keys do not work on European keyboard layouts (#237)
+  - `curl` no longer works (#330)
+  - a default argument makes some npm commands crash (#326)
+### v1.2.8 (December 2021)
+- Fixes problems where:
+  - ssh-keygen causes terminal to stall (#314)
+  - editor sometimes show a blank screen
+- Adds syntax highlighting for Terraform (#319)
+### v1.2.7 (December 2021)
+- General improvements
+### v1.2.6 (September 2021)
+- Compatibility with the latest iOS version
+- Other improvements
+### v1.2.5 (July 2021)
+- Terminal
+  - Fixed some problems regarding clang / clang++
+### v1.2.4 (June 2021)
+- Editor
+  - Fixed a problem where mouse / trackpad selection no longer works
+  - Updated to TypeScript definition to 4.2.4
+- Interface
+  - New compact side-bar design for iPhone
+  - Ability to reorder editor tabs
+  - Improved readability for Xcode Theme
+  - Ability to duplicate files or folders in context menu
+- Performance
+  - Enhanced performance when opening SMB drives from Files App
+- Git
+  - Improved compatability with various repositories remotes
+  - In-line Diff indicators
+  - Experimental Git CLI tool
+- Terminal
+  - Autocompletion for file path
+  - Open code in editor with `code <file>`
+- Runtime
+  - Clang (Run C program with `clang main.c` and `./a.out`)
+  - Clang++ (Run C++ program with `clang++ main.cpp` and `./a.out`)
+  - PHP (Run PHP program with `php` and host a web-server with `php -S localhost:<port>`)
+
+---
+
+### v1.2.3 (April 2021)
+- Editor
+  - 6 Additional Color Themes
+  - Read-only mode
+  - Built-in types for Node.js
+  - Support for @types definitions
+- Explorer
+  - Multi-file searching
+- Python Runtime
+  - Built-in Matplotlib, Pandas
+- Other
+  - UI State Restoration
+  - Localisation for German
+  - Bug fixes and other improvements
+
+---
+
+### v1.2.1 (March 2021)
+- Node.js runtime
+  - Run Javascript offline
+  - Install npm modules
+  - Install Javascript commands globally (tsc, prettier etc.)
+  - New terminal commands: npm, npx, node
+- Python 3.9.2 runtime
+  - Run Python offline
+  - Install modules with pip
+  - Install Python commands globally
+  - New terminal commands: pip, python, python3
+- Editor
+  - `Problems` tab
+  - New Markdown style
+  - Syntax highlighting for Vue
+  - Smooth Scrolling option for devices with high refresh rate
+- Terminal
+  - Now supports light colour scheme
+- File explorer
+  - Reduced row height
+- Bug fixes
+
+---
+
+### v1.1.9 (February 2021)
+- Language
+  - Faster execution
+- Bug fixes
+
+---
+
+### v1.1.8 (February 2021)
+- Text Editor
+  - Migration to TextMate grammar (More advanced syntax highlighting)
+  - Support for more languages (Groovy, HLSL, Log, Makefile, Shaderlab, Fortran, Matlab)
+  - Fixed a bug where the editor sometimes does not to pointer clicks
+  - New keyboard toolbar
+- Version Control
+  - Improved performance and reliability
+  - Staging changes
+  - Switching branch
+  - Detached head mode
+  - Revert changes
+- Language
+  - Support for Groovy
+- Built-in Terminal
+  - Support for SSH
+  - Bug fixes
+- Explorer
+  - Folding states for directories are now perserved when the sidebar is toogled off
+  - Ability to expand folder by tapping on the folder name
+- Other
+  - Width of the sidebar is reduced
+  - Theme is now temporaily removed to support the new syntax highlighting system
+  - JSON Intellisense is temporaily disabled
+
+---
+
+### v1.1.7 (January 2021)
+- Text Editor 
+  - Changes are now written to disk when you run your code or dismiss the keyboard
+  - Fixed a problem where virtual keyboard sometimes does not show up
+- Version Control
+  - Ability to clone private repositories
+  - Ability to push, pull and sync from remotes
+  - Fixed a problem where cloned repository is not properly named
+- Built-in Terminal
+  - 70+ Linux commands (ls, cd, nslookup etc.)
+  - Bash-like user primitives such as piping, history and completion
+  - Press tab to show all available commands
+- Explorer
+  - Files and directories are now sorted alphabetically
+  - Files or directories starting with a dot are now hidden by default
+  - Ability to select items with a Two-Finger pan gesture
+- Other improvements
+  - You can now open files with CodjX Suite Writer from Files app or other Apps directly
+  - You can now hold the app icon from Home Screen to reveal recent documents
+  - Fixed a typo
+";
+
+"licenses" =
+"
+### Licenses
+---
+#### monokai-slate-vscode
+ - [monokai-slate-vscode] is licensed under the [MIT License](https://github.com/hamxiaoz/monokai-slate-vscode/blob/master/LICENSE).
+#### gruvbox-material-vscode
+ - [gruvbo-material-vscode] is licensed under the [MIT License](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE).
+#### catppuccin
+ - [catppuccin](https://github.com/catppuccin/vscode) is licensed under the [MIT License](https://github.com/catppuccin/vscode/blob/main/LICENSE).
+#### vscode-terraform
+ - [vscode-terraform](https://github.com/hashicorp/vscode-terraform) is licensed under [MPL-2.0](https://github.com/hashicorp/vscode-terraform/blob/main/LICENSE).
+#### GCDWebServer
+ - [GCDWebServer](https://github.com/swisspol/GCDWebServer) is licensed under [Custom License](https://github.com/swisspol/GCDWebServer/blob/master/LICENSE).
+#### libgit2
+ - [libgit2](https://github.com/libgit2/libgit2) is licensed under [MIT License](https://github.com/libgit2/libgit2/blob/main/COPYING).
+#### highlight.js
+ - [highlight.js](https://github.com/highlightjs/highlight.js) is licensed under [BSD-3-Clause License](https://github.com/highlightjs/highlight.js/blob/master/LICENSE).
+#### ios_system
+ - [ios_system](https://github.com/holzschu/ios_system) is licensed under [BSD-3-Clause license](https://github.com/holzschu/ios_system/blob/master/LICENSE).
+#### judge0
+ - [judge0](https://github.com/judge0/judge0) is licensed under [GNU General Public License v3.0](https://github.com/judge0/judge0/blob/master/LICENSE).
+#### libssh2
+ - [libssh2](https://github.com/libssh2/libssh2) is licensed under [BSD-3-Clause License](https://github.com/swisspol/GCDWebServer/blob/master/LICENSE).
+#### MarkdownView
+ - [MarkdownView](https://github.com/keitaoouchi/MarkdownView) is licensed under [MIT License](https://github.com/keitaoouchi/MarkdownView/blob/master/LICENSE).
+#### Monaco Editor
+ - [Monaco Editor](https://github.com/microsoft/monaco-editor) is licensed under [MIT License](https://github.com/microsoft/monaco-editor/blob/master/LICENSE.md).
+#### Various Linux commands
+ - `egrep, fgrep, grep, gzip, gunzip, cat, chflag, compress, cp, date, echo, env, link, ln, printenv, pwd, ed, sed, tar, uncompress, uptime, chgrp, chksum, chmod, chown, df, du, groups, id, ls, mkdir, mv, readlink, rm, rmdir, stat, sum, touch, tr, uname, wc, whoami`
+are licensed under [BSD-3-Clause License](https://en.wikipedia.org/wiki/BSD_licenses).
+#### ZIPFoundation
+ - [ZIPFoundation](https://github.com/weichsel/ZIPFoundation) is licensed under [MIT License](https://github.com/weichsel/ZIPFoundation/blob/development/LICENSE).
+---
+> This project would not have been possible without the above open source projects.
+> Happy coding from Hong Kong 🇭🇰
+";
+
+"common.configure" = "Configure";
+"common.open_folder" = "Open Folder";
+"common.compare" = "Compare";
+"common.overwrite" = "Overwrite";
+"common.save" = "Save";
+"common.dont_save" = "Don't Save";
+"common.cancel" = "Cancel";
+"common.revert" = "Revert";
+
+"notification.source" = "Source: %@";
+
+"subscription.codeplus" = "Code+";
+"subscription.title %@" = "12 months for %@.";
+"subscription.message" = "Make Code available for all and unlock all themes. Code remains open source and existing features remain available without subscription.";
+"subscription.payment.description %@ %@" = "Starting on %@, your membership will automatically renew at %@ per year until you cancel it.";
+"subscription.payment.disallowed" = "Your device's configuration does not allow payments.";
+"subscription.join" = "Join Code+";
+"code.and.privacy" = "About Code and Privacy";
+"terms_of_use" = "Terms of Use";
+"credentials.note" = "Note: Credentials are stored inside the Secure Enclave in your device. We do not have access to it.";
+"settings.editor.font" = "Font";
+"settings.editor.font.reset" = "Reset to default";
+
+"errors.script_already_running" = "A script is already running. Finish it before running another one.";
+"errors.fs.not_implemented" = "Operation not implemented";
+"errors.fs.scheme_not_registered" = "File URI scheme not registered";
+"errors.fs.invalid_host" = "Invalid host";
+"errors.fs.unsupported_encoding" = "Unsupported encoding";
+"errors.fs.unknown" = "Unknown error";
+"errors.fs.connection_failure" = "Connection failed";
+"errors.fs.authentication_failure" = "Authentication failed";
+"errors.fs.attempting_to_copy_parent_to_child" = "Source is a parent of the target.";
+"errors.fs.attempting_to_copy_oneself" = "Source has the same path as the parent.";
+"errors.fs.already_connecting_to_a_host" = "Already connecting to a host.";
+"errors.source_control.authentication_failed" = "Authentication failed: You might need to configure your git credentials.";
+"errors.source_control.clone_authentication_failed" = "Authentication failed: Either the repository url is wrong or you need to configure your git credentials.";
+"errors.source_control.no_staged_changes" = "There are no staged changes.";
+"errors.source_control.empty_commit_message" = "Commit message cannot be empty";
+"errors.source_control.invalid_url" = "Invalid URL";
+"errors.unknown_file_format" = "Unknown file format";
+"errors.editor_does_not_exist" = "Editor does not exist";
+"errors.editor_is_not_ready" = "Editor is not ready";
+"errors.failed_to_save_file.encoding.failed" = "Failed to save file. Encoding failed.";
+"errors.file_modified_by_another_process" = "File modified by another process";
+
+"file.copy" = "Copy to..";
+"file.download" = "Download to..";
+"file.confirm_save %@" = "Do you want to save the changes made to %@?";
+
+"actions.new_window" = "New Window";
+
+"remote.connecting" = "Connecting to Host";
+"remote.connected" = "Connected successfully";
+"remote.ssh_key_not_found" = "SSH key not found in Documents/.ssh/id_rsa. Generate one by running ssh-keygen in the terminal.";
+"remote.reload_key" = "Reload key";
+
+"source_control.title" = "Source Control";
+"source_control.pat" = "Personal Access Token";
+"source_control.repository_initialized" = "Repository initialized";
+"source_control.commit_succeeded" = "Commit succeeded";
+"source_control.uploading_objects" = "Uploading objects";
+"source_control.pushing_to_remote" = "Pushing to remote";
+"source_control.push_succeeded" = "Push succeeded";
+"source_control.fetching_from_origin" = "Fetching from origin";
+"source_control.fetch_succeeded" = "Fetch succeeded";
+"source_control.clone_succeeded" = "Clone succeeded";
+"source_control.cloning_into" = "Cloning into %@";
+"source_control.error" = "Clone error: %@";
+"source_control.revert_succeeded" = "Revert succeeded";
+"source_control.remote_credentials" = "Remote Credentials";
+"source_control.credentials.note" = "In many cases, you need to use a personal access token instead of password to authenticate. To know more about this:";
+"source_control.setup_your_credentials" = "Set up your git credentials";
+"source_control.confirm_revert %@" = "Are you sure you want to revert the changes in %@?";
+"source_control.retrieving_changes" = "Retrieving changes";
+"source_control.community_templates" = "Community Templates";
+"source_control.community_templates.description" = "Community Templates are repositories on GitHub with the #codeapp-template tag. You can disable this in the settings menu.";
+"source_control.clone" = "Clone";
+
+
+"panel.problems.no_problems_detected" = "No problems detected in the workspace.";
+"panel.execution.press_play_to_execute_code" = "Press the play button to execute code. Program input needs to be filled before execution.";
+"panel.execution.program_input" = "Program input..";
+"panel.execution.input" = "Input";
+"panel.execution.output" = "Output";
+"panel.execution.split_view" = "Split View";
+"panel.execution.title" = "Execution";
+
+"local.execution.title" = "Local Execution";
+
+"remote.setup_remote_server_on_mac" = "Setting up a remote server on macOS";
